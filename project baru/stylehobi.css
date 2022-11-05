@@ -1,0 +1,143 @@
+|*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+.fContainer{
+    position: sticky;
+    top: 0px;
+    /*justify-content: center;
+    align-items: center;*/
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    height: 80px;
+    background-color: black;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+    height: 80px;
+    background-color: #222;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.brand{
+    display: flex;
+    padding: 0px;
+    flex-direction: row;
+}
+
+.fristname{
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lastname{
+    color: orange;
+    
+    padding-left: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navigation>li {
+    position: relative;
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigation>li>a {
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation>li>a:hover {
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    transition: all .1s ease-in-out;
+    border-radius: 5px;
+}
+
+.active:hover{
+    background-color: orange !important;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.page-nyala {
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.content ul{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.musiklogo {
+    background-color: orangered;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.fotografilogo {
+    background-color: orangered;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.badmintonlogo {
+    background-color: orangered;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.keterangan {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.BM {
+    padding: 0px 0px 0px 30px;
+    margin: 20px;
+}
+
+.FV{
+    padding: 0px 0px 0px 30px;
+    margin: 20px;
+}
+
+.B{
+    padding: 0px 0px 0px 30px;
+    margin: 20px;
+}
