@@ -1,0 +1,114 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+}
+
+.fContainer{
+    top: 0px;
+    /*justify-content: center;
+    align-items: center;*/
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    height: 80px;
+    background-color: black;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+    height: 80px;
+    background-color: #222;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.content{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: rgba(2, 2, 2, 0.5);
+    padding: 30px 25px 10px 25px;
+    margin: 20px auto;
+    
+    
+}
+
+.brand{
+    display: flex;
+    padding: 0px;
+    flex-direction: row;
+}
+
+.fristname{
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lastname{
+    color: orange;
+    
+    padding-left: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navigation>li {
+    position: relative;
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigation>li>a {
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation>li>a:hover {
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    transition: all .1s ease-in-out;
+    border-radius: 5px;
+}
+
+.active:hover{
+    background-color: orange !important;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.page-nyala {
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.paragraf{
+    position: relative;
+    text-align: justify;
+    margin: 0px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
